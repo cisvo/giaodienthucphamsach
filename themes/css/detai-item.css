@@ -1,0 +1,57 @@
+.bgr-fff{
+	background-color: #fff!important
+}
+.my-role-giao-hang{
+	border: 1px solid #edede4;
+	border-top: none;
+	background: #fbfbfb
+}
+.my-role-giao-hang> div{
+	border-top:1px solid #edede4;
+	padding: 5px 0 15px 5px
+}
+.my-info-item-top{
+	padding-bottom: 2em;
+	border-bottom: 1px solid #edede4;
+}
+.btn-muahang{
+	width:100%;background-color: #52b070;
+    color: #fff;
+    border-radius: 50px;
+	margin-top: 1em
+}
+
+.related-item img{
+	max-width: 40%
+}
+
+/* auto hide */
+
+/*
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 3s forwards;
+ 
+    -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+
+    -o-animation: cssAnimation 0s ease-in 3s forwards;
+     Opera 
+    animation: cssAnimation 0s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+*/
+/*
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}*/

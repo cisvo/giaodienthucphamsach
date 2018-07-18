@@ -1,0 +1,84 @@
+
+.my-color-items> div div{
+    height: 20px; 
+    width: 20px;
+    background: red;
+    border-radius: 20px;
+    margin-right: 1em;
+    margin-bottom: 1em
+}
+.my-color-items> div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color: mediumseagreen
+}
+.my-view-all-items> div{
+    border-bottom: 1px solid #ccc;
+    background: white
+}
+.my-view-all-items h5{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 1em
+}
+.my-view-all-items  button{
+    border-radius: 20px;
+    padding: 5px 1em;
+    margin: 1em auto
+}
+.my-relative-quick-view{
+    position: relative;
+    border: 1px solid white;
+    margin-top: 1em
+}
+.my-absolute-quick-view{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    display: none
+}
+.my-absolute-quick-view:hover{
+    color: black!important
+}
+.my-relative-quick-view:hover{
+    border-bottom: 1px solid #ccc;
+    opacity: 0.7;
+    cursor: pointer
+}
+.my-relative-quick-view:hover .my-absolute-quick-view{
+    display: block
+}
+.my-absolute-quick-view-sale-off{
+    background-color: #52b070;
+    position: absolute;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    top: 10%;
+    left: 80%
+}
+.modal-dialog{
+    max-width: 700px
+}
+.carousel-indicators{
+    height: 0
+}
+.carousel-indicators li{
+    width: 6em;
+    height: 4em;
+}
+.carousel-control-next, .carousel-control-prev{
+    background: red;
+    height: 12%;
+    top: 80%;
+}
+.my-buy-now:hover a{
+    color: white!important;
+    text-decoration-line: none
+}
+.breadcrumb{
+    background-color: transparent
+}
